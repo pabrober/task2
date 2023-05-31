@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <TaskProvider>
           <Navbar />
-          <Layout>   {children} </Layout>
+          <Layout>   {children} </Layout> 
           <Toaster />
         </TaskProvider>
       </body>
