@@ -11,7 +11,7 @@ export function Navbar() {
     return (
         <header className="flex justify-between items-center bg-gray-800 px-28 py-3" >
             <Link href='/'>
-                <h1 className="fon-bold text-3xl text-white" >Task App
+                <h1 className="fon-bold text-3xl text-white" >Te amo morcis
                     <span className="text-slate-300 text-sm ml-5" >{tasks.length} tasks</span>
                 </h1>
             </Link>
